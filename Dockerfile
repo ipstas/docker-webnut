@@ -3,11 +3,11 @@ MAINTAINER Eric Taieb Walch <teknologist@gmail.com>
 
 RUN mkdir /app && \
 cd /app && \
-git clone https://github.com/rshipp/python-nut2.git && \
+git clone https://github.com/rshipp/webNUT/python-nut2.git && \
 cd python-nut2 && \
 python setup.py install && \
 cd .. && \
-git clone https://github.com/rshipp/webNUT.git && cd webNUT && \
+git clone https://github.com/git/AdeMiller/webNUT.git && cd webNUT && \
 pip install -e .
 
 
